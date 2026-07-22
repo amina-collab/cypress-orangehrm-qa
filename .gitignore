@@ -1,0 +1,18 @@
+# Credentials — NE JAMAIS pousser
+cypress.env.json
+.env
+
+# Dépendances
+node_modules/
+
+# Rapports & artifacts Cypress
+cypress/reports/
+cypress/screenshots/
+cypress/videos/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
