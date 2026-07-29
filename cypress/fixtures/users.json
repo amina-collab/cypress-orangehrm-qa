@@ -1,0 +1,6 @@
+{
+  "invalid": {
+    "username": "WrongUser",
+    "password": "WrongPass123"
+  }
+}

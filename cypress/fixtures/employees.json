@@ -1,0 +1,6 @@
+{
+  "samples": [
+    { "firstName": "Jean", "lastName": "Dupont" },
+    { "firstName": "Marie", "lastName": "Curie" }
+  ]
+}

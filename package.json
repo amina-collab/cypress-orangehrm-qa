@@ -1,11 +1,12 @@
 {
-  "name": "cypress-realworld-qa",
+  "name": "cypress-orangehrm-qa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Suite Cypress (Page Object Model) pour la démo publique OrangeHRM",
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
+    "cy:run:docker": "docker compose up --build --abort-on-container-exit --exit-code-from cypress",
     "test": "cypress run"
   },
   "keywords": [],
