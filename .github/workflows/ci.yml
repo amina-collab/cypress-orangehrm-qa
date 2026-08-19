@@ -15,8 +15,8 @@ jobs:
 
       - name: Run Cypress suite in Docker
         env:
-          CYPRESS_ADMIN_USERNAME: ${{ secrets.CYPRESS_ADMIN_USERNAME }}
-          CYPRESS_ADMIN_PASSWORD: ${{ secrets.CYPRESS_ADMIN_PASSWORD }}
+          ADMIN_USERNAME: ${{ secrets.CYPRESS_ADMIN_USERNAME }}
+          ADMIN_PASSWORD: ${{ secrets.CYPRESS_ADMIN_PASSWORD }}
         run: docker compose up --build --abort-on-container-exit --exit-code-from cypress
 
       - name: Upload mochawesome report
